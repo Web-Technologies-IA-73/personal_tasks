@@ -1,80 +1,75 @@
-body {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-}
-
 .container {
-  width: 50vw;
-  height: 70vh;
-  display: inline-block;
-  border: solid 2px black;
+    margin: 10px auto 0;
+    width: 50vw;
+    height: 70vh;
+    display: block;
+    border: solid 2px black;
 }
 
 .container .first {
-  display: inline-block;
-  width: 100%;
-  height: 14%;
-  background-color: orange;
+    display: inline-block;
+    width: 100%;
+    height: 14%;
+    background-color: orange;
 }
 
 .first .white {
-  width: 30%;
-  vertical-align: middle;
-  height: 50%;
-  display: inline-block;
-  background-color: white;
-  margin-left: 25px;
+    width: 30%;
+    vertical-align: middle;
+    height: 50%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 25px;
 }
 
 .first::before {
-  content: "";
-  display: inline-block;
-  min-height: inherit;
-  height: 100%;
-  vertical-align: middle;
+    content: "";
+    display: inline-block;
+    min-height: inherit;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .middle {
-  width: 100%;
-  height: 70%;
-  display: inline-block;
+    width: 100%;
+    height: 70%;
+    display: inline-block;
 }
 
 .middle .second {
-  display: inline-block;
-  width: 25%;
-  height: 100%;
-  background-color: blue;
-  margin-right: 100px;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    background-color: blue;
+    margin-right: 100px;
 }
 
 .middle .white {
-  display: inline-block;
-  margin-bottom: 25px;
-  height: 80%;
-  width: 50%;
+    display: inline-block;
+    margin-bottom: 25px;
+    height: 80%;
+    width: 50%;
 }
 
 .middle .white .red {
-  display: inline-block;
-  width: 100%;
-  height: 10%;
-  background-color: red;
-  margin-bottom: 10%;
+    display: inline-block;
+    width: 100%;
+    height: 10%;
+    background-color: red;
+    margin-bottom: 10%;
 }
 
 .middle .white .third {
-  display: inline-block;
-  width: 50%;
-  height: 80%;
-  border: 2px solid black;
+    display: inline-block;
+    width: 50%;
+    height: 80%;
+    border: 2px solid black;
 }
 
 .middle .white .fourth {
-  margin-left: 20px;
-  display: inline-block;
-  width: 40%;
-  height: 80%;
-  background-color: blue;
+    margin-left: 20px;
+    display: inline-block;
+    width: 40%;
+    height: 80%;
+    background-color: blue;
 }
