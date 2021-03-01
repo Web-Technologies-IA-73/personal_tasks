@@ -2,32 +2,25 @@ table {
     margin: 1em auto 0;
 }
 
-tr, th, td, thead, tfoot, tbody {
+th, td, tbody {
     border: 1px solid;
-}
-
-th {
-    padding: 1em 0;
-}
-
-tr > td {
-    padding: 8em 2em;
 }
 
 thead, tfoot {
     background-color: #f8cc46;
 }
 
+th {
+    padding: 1em 0;
+}
+
 td {
+    padding: 8em 2em;
     background-color: #ec5d57;
 }
 
 td:first-of-type {
     background-color: #3a6af6;
-}
-
-td:first-of-type + td {
-    background-color: #ec5d57;
 }
 
 td:first-of-type + td + td {
