@@ -95,6 +95,7 @@ select {
   align-items: center;
   width: 96%;
   padding: 0 2%;
+  max-width: 1600px;
 }
 
 .containerInner h1 {
