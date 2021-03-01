@@ -1,0 +1,44 @@
+table {
+    margin: 1em auto 0;
+}
+
+.first {
+    width: 400px;
+    height: 25px;
+    background-color: orange;
+}
+
+.second {
+    width: 150px;
+    height: 200px;
+    background-color: blue;
+}
+
+.whiteInner .red {
+    background-color: red;
+    height: 20px;
+}
+
+.whiteInner .empty {
+    height: 20px;
+    border: 0px solid white;
+}
+
+.belowWhite {
+    width: 100%;
+    height: 100px;
+}
+
+.belowWhite .white {
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.belowWhite .blue {
+    background-color: blue;
+}
+
+.belowWhite .empty {
+}

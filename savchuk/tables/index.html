@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="../../style.css">
-    <title>Таблиця</title>
+    <link rel="stylesheet" href="../../style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Tables</title>
 </head>
 <body>
 <nav>
@@ -11,5 +14,39 @@
         <li><a href="javascript:history.back()">Назад</a></li>
     </ul>
 </nav>
+<table>
+    <tr>
+        <td class="first" colspan="5"></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="second"></td>
+        <td colspan="1"></td>
+        <td colspan="2" style="background-color: white" class="second">
+            <table class="whiteInner" style="width: 100%">
+                <tr colspan="4" class="empty">
+                    <td></td>
+                </tr>
+                <tr colspan="4" class="red">
+                    <td></td>
+                </tr>
+                <tr colspan="4" class="empty">
+                    <td></td>
+                </tr>
+                <tr>
+                    <table class="belowWhite">
+                        <tr>
+                            <td colspan="2" class="white"></td>
+                            <td class="empty"></td>
+                            <td colspan="2" class="blue"></td>
+                        </tr>
+                    </table>
+                </tr>
+                <tr>
+                    <td class="first" colspan="5"></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
 </body>
 </html>
