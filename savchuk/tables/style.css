@@ -1,44 +1,50 @@
 table {
-    margin: 1em auto 0;
+  margin: 1em auto 0;
 }
 
 .first {
-    width: 400px;
-    height: 25px;
-    background-color: orange;
+  width: 400px;
+  height: 25px;
+  background-color: orange;
 }
 
 .second {
-    width: 150px;
-    height: 200px;
-    background-color: blue;
+  width: 150px;
+  height: 200px;
+  background-color: blue;
 }
 
 .whiteInner .red {
-    background-color: red;
-    height: 20px;
+  background-color: red;
+  height: 20px;
 }
 
 .whiteInner .empty {
-    height: 20px;
-    border: 0px solid white;
+  height: 20px;
+  border: 0px solid white;
 }
 
 .belowWhite {
-    width: 100%;
-    height: 100px;
+  width: 100%;
+  height: 100px;
 }
 
 .belowWhite .white {
-    width: 25%;
-    height: 100%;
-    background-color: white;
-    border: 2px solid black;
+  width: 25%;
+  height: 100%;
+  background-color: white;
+  border: 2px solid black;
 }
 
 .belowWhite .blue {
-    background-color: blue;
+  background-color: blue;
 }
 
-.belowWhite .empty {
+.whiteLine {
+  width: 130px;
+  height: 15px;
+  background-color: white;
+  position: absolute;
+  top: 7px;
+  left: 20px;
 }

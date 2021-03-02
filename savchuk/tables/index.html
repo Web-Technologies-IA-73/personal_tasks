@@ -1,52 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!--    <link rel="stylesheet" href="../../style.css"/>-->
-    <link rel="stylesheet" href="style.css"/>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <head>
+    <!--    <link rel="stylesheet" href="../../style.css"/>-->
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tables</title>
-</head>
-<body>
-<!--<nav>-->
-<!--    <ul>-->
-<!--        <li><a href="javascript:history.back()">Назад</a></li>-->
-<!--    </ul>-->
-<!--</nav>-->
-<table>
-    <tr>
-        <td class="first" colspan="5"></td>
-    </tr>
-    <tr>
-        <td colspan="2" class="second"></td>
+  </head>
+  <body>
+    <!--<nav>-->
+    <!--    <ul>-->
+    <!--        <li><a href="javascript:history.back()">Назад</a></li>-->
+    <!--    </ul>-->
+    <!--</nav>-->
+    <table>
+      <tr>
+        <td class="first" colspan="5" style="position: relative">
+          <div class="whiteLine"></div>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="1" class="second"></td>
         <td colspan="1"></td>
         <td colspan="2" style="background-color: white" class="second">
-            <table class="whiteInner" style="width: 100%">
-                <tr colspan="4" class="empty">
-                    <td></td>
-                </tr>
-                <tr colspan="4" class="red">
-                    <td></td>
-                </tr>
-                <tr colspan="4" class="empty">
-                    <td></td>
-                </tr>
+          <table class="whiteInner" style="width: 100%">
+            <tr colspan="4" class="empty">
+              <td></td>
+            </tr>
+            <tr colspan="4" class="red">
+              <td></td>
+            </tr>
+            <tr colspan="4" class="empty">
+              <td></td>
+            </tr>
+            <tr>
+              <table style="height: 165px" class="belowWhite">
                 <tr>
-                    <table class="belowWhite">
-                        <tr>
-                            <td colspan="2" class="white"></td>
-                            <td class="empty"></td>
-                            <td colspan="2" class="blue"></td>
-                        </tr>
-                    </table>
+                  <td style="width: 45%" colspan="2" class="white"></td>
+                  <td style="width: 5%" colspan="1" class="empty"></td>
+                  <td colspan="2" class="blue"></td>
                 </tr>
-                <tr>
-                    <td class="first" colspan="5"></td>
-                </tr>
-            </table>
+              </table>
+            </tr>
+            <tr>
+              <td class="first" colspan="5"></td>
+            </tr>
+          </table>
         </td>
-    </tr>
-</table>
-</body>
+      </tr>
+    </table>
+  </body>
 </html>
