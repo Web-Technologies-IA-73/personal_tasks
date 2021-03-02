@@ -6,12 +6,14 @@ table {
   width: 400px;
   height: 25px;
   background-color: orange;
+  text-align: center;
 }
 
 .second {
   width: 150px;
   height: 200px;
   background-color: blue;
+  text-align: center;
 }
 
 .whiteInner .red {
