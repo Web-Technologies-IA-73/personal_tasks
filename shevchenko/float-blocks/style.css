@@ -1,0 +1,40 @@
+main {
+    margin: 1em auto 0;
+    width: 20em;
+    height: 20em;
+}
+
+div {
+    text-align: center;
+    outline: 1px solid;
+}
+
+.container {
+    height: 68%;
+}
+
+.elem {
+    float: left;
+    width: 4em;
+    height: 100%;
+    margin: 0 2.5%;
+}
+
+.elem {
+    background-color: #ec5d57;
+}
+
+.elem:first-of-type {
+    background-color: #3a6af6;
+}
+
+.elem:first-of-type + .elem + .elem {
+    background-color: white;
+}
+
+.top, .bottom {
+    clear: left;
+    height: 16%;
+    width: auto;
+    background-color: #f8cc46;
+}
